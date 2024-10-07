@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SoundSpin</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/seu-kit-fontawesome.js" crossorigin="anonymous"></script>
+    </head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">SoundSpin</h1>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>Descubra uma nova música por apenas R$ 1!</h2>
+                <p>Clique no botão e receba uma música surpresa escolhida especialmente para você.</p>
+                <div class="filters">
+                    <select name="genero" id="genero">
+                        <option value="">Gênero</option>
+                        <option value="pop">Pop</option>
+                        <option value="rock">Rock</option>
+                        <option value="jazz">Jazz</option>
+                        <option value="eletronica">Eletrônica</option>
+                    </select>
+                    <select name="idioma" id="idioma">
+                        <option value="">Idioma</option>
+                        <option value="portugues">Português</option>
+                        <option value="ingles">Inglês</option>
+                        <option value="espanhol">Espanhol</option>
+                    </select>
+                    <select name="ritmo" id="ritmo">
+                        <option value="">Ritmo</option>
+                        <option value="calmo">Calmo</option>
+                        <option value="animado">Animado</option>
+                        <option value="dancante">Dançante</option>
+                    </select>
+                </div>
+                <button class="btn-primary">Receba sua música por R$ 1</button>
+            </div>
+        </section>
+        <section class="artist-info">
+            <div class="container">
+                <img src="artist.jpg" alt="Artista/Banda">
+                <h3>Nome do Artista/Banda</h3> 
+                <h4>Título da Música</h4>
+                <p>Breve biografia ou curiosidades sobre o artista/música.</p>
+                <div class="social-share">
+                    <a href="#"><img src="icon-facebook.png" alt="Facebook"></a>
+                    <a href="#"><img src="icon-twitter.png" alt="Twitter"></a>
+                    <a href="#"><img src="icon-instagram.png" alt="Instagram"></a>
+                </div>
+            </div>
+        </section>
+        <section class="featured-artists">
+            <div class="container">
+                <h2>Artistas em Destaque</h2>
+                <div class="artists-grid">
+                    <div class="artist-card">
+                        <img src="artist1.jpg" alt="Artista 1">
+                        <h3>Artista 1</h3>
+                        <p>Descrição breve do artista.</p>
+                        <a href="#" class="btn-secondary">Saiba Mais</a>
+                    </div>
+                    <div class="artist-card">
+                        <img src="artist2.jpg" alt="Artista 2">
+                        <h3>Artista 2</h3>
+                        <p>Descrição breve do artista.</p>
+                        <a href="#" class="btn-secondary">Saiba Mais</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-links">
+                <a href="#">Termos de Serviço</a>
+                <a href="#">Política de Privacidade</a>
+                <a href="#">FAQ</a>
+            </div>
+            <div class="social-media">
+                <a href="#"><img src="icon-facebook-white.png" alt="Facebook"></a>
+                <a href="#"><img src="icon-twitter-white.png" alt="Twitter"></a>
+                <a href="#"><img src="icon-instagram-white.png" alt="Instagram"></a>
+            </div>
+            <p> 2024 SoundSpin. Todos os direitos reservados para nós.</p>
+        </div>
+    </footer>
+</body>
+</html>
